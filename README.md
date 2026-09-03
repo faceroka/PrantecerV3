@@ -30,3 +30,5 @@
 ```bash
 dotnet add package SharpPcap
 dotnet add package PacketDotNet
+
+Программа написана под ОС Windows!
