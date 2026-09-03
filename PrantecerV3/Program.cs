@@ -41,7 +41,6 @@ class Program
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.White;
 
-        // Ввод хоста для ping
         Console.Write("Введите IP/домен для выполнения ping (нажмите Enter для 8.8.8.8): ");
         string inputHost = Console.ReadLine()?.Trim();
         if (!string.IsNullOrEmpty(inputHost))
@@ -58,7 +57,8 @@ class Program
             "██████╔╝██████╔╝███████║██╔██╗ ██║   ██║   █████╗  ██║     █████╗  ██████╔╝",
             "██╔═══╝ ██╔══██╗██╔══██║██║╚██╗██║   ██║   ██╔══╝  ██║     ██╔══╝  ██╔══██╗",
             "██║     ██║  ██║██║  ██║██║ ╚████║   ██║   ███████╗╚██████╗███████╗██║  ██║",
-            "╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝ ╚═════╝╚══════╝╚═╝  ╚═╝"
+            "╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝ ╚═════╝╚══════╝╚═╝  ╚═╝",
+            "by: @faceroka                                                             ",
         };
 
         int windowHeight = Console.WindowHeight;
